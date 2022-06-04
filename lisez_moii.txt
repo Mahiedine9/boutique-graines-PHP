@@ -1,0 +1,13 @@
+/jai commencé par cree deux fichiers un pour la connexion avec la base de donnee et l'autre pour pour mettre les fonction d'ajout et d'affichage et de suppression,
+/J’ai créé le fichier principal php qui est index et dans lequel j’ai créé la page HTML avec un require qui oblige de rentrer à la page de commande(fonction) et qui
+ est relié avec sa page de style.
+/J’ai récupéré les tables de la base de données avec la fonction afficher() afin de créé une boucle foreach qui permet de voir juste les graines créé et qui les affichent en blocs.
+/J’ai créé trois bouton supprimer, ajouter et connexion qui sont relié au differents formulaires crées.
+
+/j'ai cree un formulaire pour que l'administrateur puisse inserer les donnees du produit qui souhaite supprimer ou ajouter
+/quand l'administrateur entre les informations du produit on verifie que les cases sont pas vide et on récupére tous les variabes avec la methode POST et on fait appel a la fonction
+ ajouter(), pour la suppression on verifie juste l'Id et on applique la fonction supprimer().
+/pour les blocs des graines j'ai affiché la quantite, la famille et l'image, pour les autres informations j'ai crée le bouton 'plus d'information' qui permet de voir les 
+ autres informations dans une autre page qui est crée dans le fichier info_produit.
+ /j'ai crée le fichier indentifier pour avoir un formulaire a remplir par l'administrateur par son adresse mail et son mot de pass afin de s'identifier et pourra ensuite supprimer
+  ou ajouter un produit a la table.
